@@ -20,6 +20,15 @@
     5.找第八行的ser-class-》com。。。。。。servlets.addservelt
     6.用户发的是post（method=post），因此tomcat会执行Addservlet的dopost方法
     -->
+    
+    <servlet>
+        <servlet-name>Demo02Servlet</servlet-name>
+        <servlet-class>com.miko.servlets.Demo02Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Demo02Servlet</servlet-name>
+        <url-pattern>/demo2</url-pattern>
+    </servlet-mapping>    
 
 
 </web-app>
