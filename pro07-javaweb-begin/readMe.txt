@@ -18,3 +18,5 @@ Servlet的继承
 
 Demo03-05 session 会话跟踪何保存作用域
 Demo06-07 服务器转发重定向和内部转发
+demo08-10 session 和setAttribute
+demo12-13   application保存作用域
